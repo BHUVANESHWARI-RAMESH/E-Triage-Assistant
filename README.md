@@ -56,9 +56,7 @@ bash
 python main.py
 
 
-
-
-  How It Works
+ How It Works
 
 1. The user inputs symptoms through the interface
 2. The backend processes the input using FastAPI
@@ -76,6 +74,7 @@ python main.py
 * Develop a mobile-friendly interface
 
 Failure Narrative:
+
 During the development of this project, one of the main challenges was integrating multiple components such as FastAPI, AI APIs, and FAISS into a single working pipeline. Initially, there were issues with API responses and data flow between modules, which caused inconsistent outputs. Another difficulty was managing deployment on Replit, especially handling dependencies and environment configurations.
 
 Through this process, I learned the importance of modular design, proper debugging, and testing each component individually before integration. If I were to do this again, I would start with a clearer architecture design and maintain better documentation throughout development to avoid confusion and rework.
