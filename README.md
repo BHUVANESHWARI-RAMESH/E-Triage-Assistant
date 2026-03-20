@@ -68,6 +68,15 @@ python main.py
 3. Relevant medical data is retrieved using FAISS
 4. AI generates a response based on context
 5. The system returns a triage suggestion
+   
+
+Performance Considerations:
+
+Optimized API calls to reduce response latency
+
+Efficient vector search for faster retrieval
+
+Lightweight backend to handle multiple requests
 
 
 
