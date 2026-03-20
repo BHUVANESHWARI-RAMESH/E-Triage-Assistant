@@ -90,6 +90,11 @@ The system was tested using different types of symptom inputs to evaluate respon
 * Integrate hospital APIs for real-time data
 * Develop a mobile-friendly interface
 
+ 🔐 Security Considerations
+
+Basic input validation is implemented to prevent invalid or empty requests. Sensitive data such as API keys are handled securely using environment variables. Future improvements will include enhanced validation and protection against misuse of the API.
+
+
 Failure Narrative:
 
 During the development of this project, one of the main challenges was integrating multiple components such as FastAPI, AI APIs, and FAISS into a single working pipeline. Initially, there were issues with API responses and data flow between modules, which caused inconsistent outputs. Another difficulty was managing deployment on Replit, especially handling dependencies and environment configurations.
