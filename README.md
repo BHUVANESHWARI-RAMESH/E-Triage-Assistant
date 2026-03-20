@@ -1,53 +1,48 @@
-  🚑 Intelligent Triage Assistant
+  Intelligent Triage Assistant
 
-Live Demo: https://intelligent-triage-assistant-bhuvaneshwari5.replit.app
+ 🔗 Live Demo
+
+https://intelligent-triage-assistant-bhuvaneshwari5.replit.app
 
 
 
-📌 Project Description
+ 📌 Project Description
 
-The Intelligent Triage Assistant is an AI-powered healthcare support system that analyzes patient symptoms and provides quick triage suggestions. It helps prioritize medical cases efficiently and assists in emergency decision-making.
+The Intelligent Triage Assistant is a web-based healthcare support system designed to analyze user-provided symptoms and generate a preliminary triage response. The main goal of this project is to assist in prioritizing medical cases based on urgency, especially in situations where immediate human medical assistance may not be available.
+
+The system uses an AI-based approach combined with a FastAPI backend to process user input and retrieve relevant medical information. A vector database (FAISS) is used to store and search through medical documents efficiently, allowing the system to generate faster and more relevant responses.
+
+This project was developed as part of a problem-solving initiative to explore how AI can be used in real-world healthcare scenarios to improve decision-making and response time.
 
 
 
  🚀 Features
 
-* AI-based symptom analysis
-* FastAPI backend for high performance
-* Real-time response system
-* Medical document processing (FAISS + embeddings)
-* Scalable and deployable on cloud
+* Symptom-based triage prediction
+* FastAPI backend for efficient API handling
+* Integration with AI for intelligent responses
+* Use of FAISS for fast document retrieval
+* Real-time response system via web interface
+
 
 
 🛠️ Tech Stack
 
 * Python
 * FastAPI
-* FAISS (Vector Database)
+* FAISS (Vector Search)
 * OpenAI API
-* Replit (Deployment)
+* Replit (for development and deployment)
 
 
-📂 Project Structure
+  Installation & Setup
 
-bash
-├── backend/
-├── frontend/
-├── models/
-├── requirements.txt
-├── main.py
-└── README.md
-
-
-
-
-⚙️ Installation & Setup
-
- 1. Clone the repository
+1. Clone the repository
 
 bash
 git clone https://github.com/yourusername/intelligent-triage-assistant.git
 cd intelligent-triage-assistant
+
 
  2. Install dependencies
 
@@ -62,23 +57,25 @@ python main.py
 
 
 
- 📊 How It Works
 
-1. User enters symptoms
-2. Backend processes input using AI model
-3. FAISS retrieves relevant medical data
-4. System generates triage response
-5. Output displayed to user
+  How It Works
+
+1. The user inputs symptoms through the interface
+2. The backend processes the input using FastAPI
+3. Relevant medical data is retrieved using FAISS
+4. AI generates a response based on context
+5. The system returns a triage suggestion
 
 
 
  🎯 Future Improvements
 
-* Add multilingual support
-* Integrate real-time hospital data
-* Improve model accuracy
-* Mobile app version
+* Improve accuracy with better medical datasets
+* Add multilingual support for wider accessibility
+* Integrate hospital APIs for real-time data
+* Develop a mobile-friendly interface
 
+Failure Narrative:
+During the development of this project, one of the main challenges was integrating multiple components such as FastAPI, AI APIs, and FAISS into a single working pipeline. Initially, there were issues with API responses and data flow between modules, which caused inconsistent outputs. Another difficulty was managing deployment on Replit, especially handling dependencies and environment configurations.
 
-
- 
+Through this process, I learned the importance of modular design, proper debugging, and testing each component individually before integration. If I were to do this again, I would start with a clearer architecture design and maintain better documentation throughout development to avoid confusion and rework.
