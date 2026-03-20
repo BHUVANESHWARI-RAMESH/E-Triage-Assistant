@@ -94,6 +94,11 @@ The system was tested using different types of symptom inputs to evaluate respon
 
 Basic input validation is implemented to prevent invalid or empty requests. Sensitive data such as API keys are handled securely using environment variables. Future improvements will include enhanced validation and protection against misuse of the API.
 
+ 📈 Scalability Approach
+
+The system is designed with scalability in mind by using a lightweight FastAPI backend and efficient vector search. The architecture can be extended to handle larger datasets and increased user traffic by deploying on cloud platforms and integrating load balancing techniques.
+
+
  🤝 Use Cases
 
 * Assisting users in understanding symptom severity
