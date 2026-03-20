@@ -14,6 +14,11 @@ The system uses an AI-based approach combined with a FastAPI backend to process 
 
 This project was developed as part of a problem-solving initiative to explore how AI can be used in real-world healthcare scenarios to improve decision-making and response time.
 
+💡 Solution Overview
+
+The Intelligent Triage Assistant is designed to bridge this gap by using AI to analyze user symptoms and generate context-aware triage responses. It helps users understand the urgency of their condition and decide the next steps more effectively.
+
+The system integrates a FastAPI backend with AI-based processing and vector search techniques to deliver fast and relevant results
 
 
  🚀 Features
