@@ -94,6 +94,13 @@ The system was tested using different types of symptom inputs to evaluate respon
 
 Basic input validation is implemented to prevent invalid or empty requests. Sensitive data such as API keys are handled securely using environment variables. Future improvements will include enhanced validation and protection against misuse of the API.
 
+ 🤝 Use Cases
+
+* Assisting users in understanding symptom severity
+* Supporting initial triage in emergency situations
+* Helping reduce unnecessary hospital visits
+* Providing quick guidance in remote or rural areas
+
 
 Failure Narrative:
 
