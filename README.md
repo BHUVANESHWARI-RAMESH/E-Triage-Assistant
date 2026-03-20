@@ -79,6 +79,9 @@ Efficient vector search for faster retrieval
 Lightweight backend to handle multiple requests
 
 
+ 🧪 Testing Strategy
+
+The system was tested using different types of symptom inputs to evaluate response accuracy and consistency. Edge cases such as empty input, vague symptoms, and multiple symptoms were also tested to ensure stability. Manual testing was performed to verify API responses and system behavior under different conditions.
 
  🎯 Future Improvements
 
